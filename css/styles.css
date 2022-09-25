@@ -137,7 +137,7 @@
   width: 100%;
   height: 100%;
 
-  transition: transform var(--animation);
+  transition: opacity var(--animation);
   background-color: rgba(0, 0, 0, 0.2);
 }
 .backdrop.is-hidden {
@@ -444,9 +444,7 @@ modal-icon:focus {
 .socials-nav {
   margin-left: 70px;
 }
-.form {
-  margin-left: 93px;
-}
+
 .form-nav {
   margin: 0;
   margin-bottom: 20px;
@@ -458,22 +456,15 @@ modal-icon:focus {
 
   color: var(--main-bg-cl);
 }
-.options {
-  padding: 0;
-  margin: 0;
-  width: 570px;
-}
-.options-mail {
-  position: absolute;
-  display: flex;
-  padding: 0;
-  margin: 0;
 
+
+.form {
   gap: 12px;
-  text-decoration: none;
 }
 .form-field {
   width: 570px;
+  margin-left: 93px;
+
 }
 
 .form-field input {
@@ -801,7 +792,7 @@ color: var(--main-txt-cl);
 .register-form-field {
   position: relative;
   display: block;
-  margin-bottom: 10px;
+ 
  
 }
 .register-form-label {
@@ -875,7 +866,7 @@ color: var(--light-txt-cl);
   outline: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-margin-bottom: 20px;
+
 }
 .register-form-message::placeholder {
   font-weight: 400;
