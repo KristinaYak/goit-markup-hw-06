@@ -532,6 +532,7 @@ modal-icon:focus {
   background-color: var(--secondary-accent-bg-cl);
 }
 .btn-icon {
+  
   fill: currentColor;
   margin-left: 10px;
 }
